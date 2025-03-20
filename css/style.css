@@ -1,0 +1,28 @@
+*::after,::before{margin: 0; box-sizing: border-box;}
+ul{list-style: none;}
+button{padding: 0; cursor: pointer;}
+
+html{ font-size: 15px;}
+body{font-size: 17px; font-family: system-ui, sans-serif;}
+
+.container{width: 100%; background:linear-gradient(135deg, #000, #fff); min-height: 100vh; display: grid; place-items: center; }
+
+.todoList{width: 21rem; background:linear-gradient(45deg,#fff,#00f4); padding:1rem 1rem 3rem; border-radius: 20px; box-shadow: -5px -5px 15px #fff, 5px 5px 20px #000;position: relative;}
+.todoList input{ width: 16rem; height: 2.4rem; border: none; border-radius: 20px; padding-left: 1rem; font-size: 1rem; background: #0ff3; box-shadow: 2px 2px 10px #000, -2px -2px 14px #87ceeb; outline: none;}
+.todoform{ display: flex; align-items: center;}
+input::placeholder{padding-left: 1rem; font-size: 1.2rem; color: #000;}
+
+.btn{ height: 2.5rem; width: 3.3rem; border: none; padding: 5px; border-radius: 20px; background: #0ff; }
+.btn:hover{ box-shadow: 2px 2px 10px #000,-2px -2px 10px #87ceeb; }
+
+.todoList ul{ width: 18rem;}
+.todoList ul li{ height: 2rem; font-size: 1em; padding: 5px; border-radius: 25px; list-style: circle; cursor: pointer; position: relative;; list-style-position:outside; width: 100%; line-break: anywhere;
+}
+
+
+
+span{position: absolute; background: none; border: none; right: 1rem; font-size:1rem; top: 7px;}
+span,.delete:hover{ filter: drop-shadow(1px 1px 10px #f00); }
+
+ul li.toggle{list-style:disc;  text-decoration-line: line-through;}
+.delete{position: absolute; bottom:5px; right: 5px; border: none; padding: .7rem; border-radius: 25px; font-size: 1rem; font-weight: bold; background: linear-gradient(45deg,#f00,#000); color: #fff9;}
