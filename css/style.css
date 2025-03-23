@@ -12,7 +12,7 @@ body{font-size: 17px; font-family: system-ui, sans-serif;}
 .todoform{ display: flex; align-items: center;}
 input::placeholder{padding-left: 1rem; font-size: 1.2rem; color: #000;}
 
-.btn{ height: 2.5rem; width: 3.3rem; border: none; padding: 5px; border-radius: 20px; background: #0ff; }
+.btn{ height: 2.5rem; width: 3rem;  border: none; padding: 5px; border-radius: 20px; background: #0ff; }
 .btn:hover{ box-shadow: 2px 2px 10px #000,-2px -2px 10px #87ceeb; }
 
 .todoList ul{ width: 18rem;}
